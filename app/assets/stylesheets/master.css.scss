@@ -28,4 +28,11 @@ h3, h4, h5, h6 {
 .btn {
 	background-color: $orange;
 	color: $tan;
+	border: none;
+}
+
+input.string {
+	background-color: $tan;
+	border: none;
+	padding: 3px 8px;
 }

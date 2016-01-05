@@ -7,6 +7,7 @@ class ItchesController < ApplicationController
 	def create
 		Itch.create(itch_params)
 		redirect_to root_path
+
 	end
 
 	private
