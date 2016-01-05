@@ -1,2 +1,8 @@
-<h1>Built with Scratch</h1>
-<h2>Feel the Itch?</h2>
+
+	<h1>Built with Scratch</h1>
+	<h2>Feel the Itch?</h2>
+	<ul>
+	<% @itches.each do |itch| %>
+		<li><%= itch.name %></li>
+	<% end %>
+	</ul>
