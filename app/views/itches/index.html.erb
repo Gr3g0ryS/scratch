@@ -1,8 +1,19 @@
+<div class="row">
+	<div class="col-xs-12 col-sm-4 col-sm-offset-4">
+		<h1>Built with Scratch</h1>
 
-	<h1>Built with Scratch</h1>
-	<h2>Feel the Itch?</h2>
-	<ul>
-	<% @itches.each do |itch| %>
-		<li><%= itch.name %></li>
+	<%= simple_form_for @itch do |f| %>
+
+		<%= f.input :name, label: false %>
+<br />
+		<%= f.submit 'Feel the Itch?', :class => 'btn' %>
+
 	<% end %>
-	</ul>
+<br />
+		<ul>
+		<% @itches.each do |itch| %>
+			<li><%= itch.name %></li>
+		<% end %>
+		</ul>
+	</div>
+</div>
