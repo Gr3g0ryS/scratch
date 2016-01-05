@@ -1,0 +1,25 @@
+$blue: #44B3C2;
+$tan: #F2EDD8;
+$yellow: #F1A94E;
+$brown: #5D4C46;
+$orange: #E45641;
+$grey: #7B8D8E;
+$primary-font: 'Bree Serif', serif;
+
+
+body {
+	font-family: $primary-font;
+	background-color: $blue;
+}
+
+h1 {
+	color: $tan;
+}
+
+h2 {
+	color: $yellow;
+}
+
+h3, h4, h5, h6 {
+	color: $brown;
+}
